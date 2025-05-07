@@ -1,9 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .wrapper {
   max-width: 1400px;
   width: 100%;
@@ -190,3 +184,7 @@
 .multimedia-grid .item5 { grid-area: e; }
 .multimedia-grid .item6 { grid-area: f; }
 .multimedia-grid .item7 { grid-area: g; }
+
+.navItems > li.dropdown a {
+    cursor: pointer
+}
